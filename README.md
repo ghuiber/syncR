@@ -9,4 +9,4 @@ The `syncR` package gives you the `syncPacks()` function which keeps tabs on whi
 
 You do not need to keep your R package library anywhere in particular. The `syncR` package finds it wherever it is, using the internal function `getMyBearings()`.
 
-Installation: `devtools::install_github('ghuiber/syncR')`
+Installation: `devtools::install_github('ghuiber/syncR')`. On Windows you may need to restart R to get to the help files.
