@@ -1,9 +1,7 @@
 Package: syncR
 Title: Sync your R packages across multiple computers
 Version: 0.1
-Authors@R: c(
-    person("Gabi", "Huiber", email = "ghuiber@gmail.com",
-    role = c("aut", "cre"))
+Authors@R: "Gabi Huiber <ghuiber@gmail.com> [aut, cre]"
 Description: This package saves and updates an .RData file for each computer in
     the pool, which holds a list of two elements: the first is a string
     describing the R version installed on that computer; the second is a
