@@ -11,3 +11,5 @@ Depends:
     R (>= 3.1.0)
 License: Simplified BSD
 LazyData: true
+Suggests:
+    testthat

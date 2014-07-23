@@ -15,8 +15,10 @@
 #' @keywords utilities
 #' @export
 #' @examples
+#' \dontrun{
 #' syncPacks('SpiderOak Hive','syncR')
 #' syncPacks()
+#' }
 syncPacks <- function(syncfolder='SpiderOak Hive', packsdb='syncR') {
     info      <- getMyBearings(syncfolder,packsdb)
     thisPuter <- info[['thisPuter']]

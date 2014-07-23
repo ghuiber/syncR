@@ -22,8 +22,10 @@ you have in the synced folder, give them a subfolder
 of their own, referenced here as \code{packsdb}.
 }
 \examples{
+\dontrun{
 syncPacks('SpiderOak Hive','syncR')
 syncPacks()
+}
 }
 \keyword{utilities}
 
