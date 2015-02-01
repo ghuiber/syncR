@@ -1,4 +1,4 @@
-#' Place a day inside a monthly calendar
+#' Write monthly calendar for given date
 #' @param ds date string of format 'YYYY-MM-DD'
 #' @param offs offset in days: negative or positive integer number of days before or after \code{ds}
 putInCalendar <- function(ds,offs=0) {
